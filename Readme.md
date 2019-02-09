@@ -14,13 +14,13 @@ Really early build, you can replace the fetch links within index.js with your ow
 
 ### Testing locally 
 
-####Step 1: create an app on Fly
+#### Step 1: create an app on Fly
 `fly create app graphql-translator`
 
-####Step 2: start the app locally to test 
+#### Step 2: start the app locally to test 
 `fly start`
 
-####Step 3: test it by accessing 
+#### Step 3: test it by accessing 
 
 Querying just the ID of the car for a particular plateNumber
 https://localhost:3000/?query={car(plateNumber:"APP756IE"){id:id}}
@@ -28,12 +28,12 @@ https://localhost:3000/?query={car(plateNumber:"APP756IE"){id:id}}
 Querying just the colors of all the cars within our /cars api
 https://localhost:3000/?query={cars{id:id}}
 
-####Step 4: deploy app to prod
+#### Step 4: deploy app to prod
 `fly deploy`
 
 Next Step to figure out how to batch REST API results from multiple api endpoints and then batch them into a single graphql response.
 
-###Production App
+### Production App
 
 Benefits of having GraphQL vs REST API : Byte Savings and security
 
