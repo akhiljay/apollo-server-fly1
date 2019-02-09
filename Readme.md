@@ -57,6 +57,6 @@ https://apollo-server-demo1.edgeapp.net/?query={car(plateNumber:%22APP756IE%22){
 Response Size: 173B
 
 via REST API 
-https://mvrp.herokuapp.com/api/car?plateNumberAPP756IE
+https://mvrp.herokuapp.com/api/car?plateNumber=APP756IE
 Response Size: 421B
 
